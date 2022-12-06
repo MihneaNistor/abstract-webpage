@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="abstract.css">
+<title>Abstract</title>
+
+</head>
+<body>
+  <div class="header">
+    <div class="header-left">
+      <img src="https://sdk.goabstract.com/img/logo.svg">
+      <h1>Abstract &nbsp | &nbsp Help Center</h1>
+    </div>
+    <div class="header-right">
+      <button class="show submit" type="button">Submit a request</button>
+      <button class="show sign" type="button">Sign in</button>
+
+      <button class="hide submit" type="button"><i class="fa fa-search"></i></button>
+      <button class="hide sign" type="button"><i class="fa fa-home"></i></button>
+  </div>
+  <div class="clearfix"></div>
+    <div class="search">
+      <h2>How can we help?</h2>
+       <div class="search-bar">
+          <form action="#">
+              <input type="text"
+                  placeholder="Search"
+                  name="search">
+          </form>
+      </div>
+    </div>
+
+
+      <div class="content">
+        <div class = "left">
+          <img src="https://theme.zdassets.com/theme_assets/2197739/aed6500f4da41c641f3de5d96247eb6654e9c386.png">
+                <h3>Using Abstract</h3>
+                <p>Abstract lets you manage, version, and document your designs in one place.</p>
+                <button class="learn-more" type="button">Learn More...</button>
+              <div class="clearfix"></div>
+              <img src="https://theme.zdassets.com/theme_assets/2197739/50d0db451c0e1e66e1caddd142986fcf6792ca05.png">
+                  <h3>Manage organizations, teams, and projects</h3>
+                  <p>Use Abstract organizations, teams, and projects to organize your people and your work.</p>
+                  <button class="learn-more" type="button">Learn More...</button>
+                <div class="clearfix"></div>
+                <img src="https://theme.zdassets.com/theme_assets/2197739/7712592465ef5c7bf18f1c7cb16e19ab44eb81e3.png">
+                    <h3>Authenticate to Abstract</h3>
+                    <p>Set up and configure SSO, SCIM, and Just-in-Time provisioning.</p>
+                    <button class="learn-more" type="button">Learn More...</button>
+                  <div class="clearfix"></div>
+        </div>
+          <div class = "right">
+            <img src="https://theme.zdassets.com/theme_assets/2197739/91588b3d042df901d9b941ccbb57af4f151401c7.png">
+            <h3>Manage your account</h3>
+            <p>Configure your account settings, such as your email, profile details, and password.</p>
+            <button class="learn-more" type="button">Learn More...</button>
+            <div class="clearfix"></div>
+
+            <img src="https://theme.zdassets.com/theme_assets/2197739/3e82d0126e97d7b7c60a611d4e11b3c278d33743.png">
+            <h3>Manage billing</h3>
+            <p>Change subscriptions and payment details.</p>
+            <button class="learn-more" type="button">Learn More...</button>
+            <div class="clearfix"></div>
+
+            <img src="https://theme.zdassets.com/theme_assets/2197739/dcc25d18e224d12621d74e545cc8bdd1b5685ca8.png">
+            <h3>Abstract support</h3>
+            <p>Get in touch with a human.</p>
+            <button class="learn-more" type="button">Learn More...</button>
+            <div class="clearfix"></div>
+          <!-- <div class="clearfix"></div> -->
+
+          </div>
+      </div>
+<footer>
+  <div class = "footer-column">
+    <h4>Abstract</h4>
+      <ul>
+        <li><a href="#">Start trial</a></li><br>
+        <li><a href="#">Pricing</a></li><br>
+        <li><a href="#">Download</a></li><br>
+      </ul>
+    </div>
+    <div class = "footer-column">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Blog</a></li><br>
+        <li><a href="#">Help Center</a></li><br>
+        <li><a href="#">Release Notes</a></li><br>
+        <li><a href="#">Status</a></li><br>
+      </ul>
+      </div>
+      <div class = "footer-column">
+      <h4>Comunity</h4>
+      <ul>
+        <li><a href="#">Twitter</a></li><br>
+        <li><a href="#">Linked In</a></li><br>
+        <li><a href="#">Facebook</a></li><br>
+        <li><a href="#">Podcast</a></li><br>
+      </ul>
+      </div>
+      <div class = "footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li><br>
+        <li><a href="#">Careers</a></li><br>
+        <li><a href="#">Legal</a></li><br>
+      </ul>
+      </div>
+
+</footer>
+<script type="text/javascript">
+function thePromise() {
+    return new Promise((resolve, reject) => {
+      let x = true;
+      if(!x) {
+        setTimeout(() => {
+          resolve("OK");
+        }, 2000);
+      } else {
+        setTimeout(() => {
+          reject("ERROR!!!");
+        }, 2000);
+      }
+    });
+  }
+
+  async function asyncCall() {
+
+  console.log('calling...');
+  try {
+    let result = await thePromise();
+    console.log(result);
+  }
+  catch(error) {
+    console.error(error);
+  }
+}
+
+asyncCall();
+
+
+// p1
+//   .then((result) => {
+//     console.log(result);
+//   })
+//   .catch((err) => {
+//     console.error(err);
+//   })
+
+
+</script>
+
+</body>
+
+
+</html>
